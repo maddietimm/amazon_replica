@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#password {
+    display: inline-flex;
+    justify-content:flex-end;
+    align-items:center ;
+    
+}
+#form-border {
+    border: 2px rgb(202, 199, 199) solid;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.new_user {
+    text-align: center;
+    border-bottom: 1px rgb(184, 181, 181) solid;
+}
